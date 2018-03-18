@@ -83,6 +83,11 @@ padding-top: 60px;
 margin-top: -40px
 }
 
+#tg-sb-content {
+    margin-top: 25px;
+    }
+}
+
 .post-content img {
     margin: 12px 0px 3px 0px;
     width: auto;
@@ -290,6 +295,10 @@ li.dropdownActive a {
     margin-top:10px;
 }
 
+.navbar-inverse {
+    margin-bottom: 0px;
+}
+
 .post-content .rssfeedLink {
     color: #248EC2;
 }
@@ -393,7 +402,6 @@ ul#mysidebar {
     padding-left:20px;
     background-color: whitesmoke !important;
 }
-
 
 .nav ul li a {
     background-color: #FAFAFA;
@@ -858,20 +866,36 @@ span.soft {
     }
 }
 
-@media (min-width: 1000px) {
-
-    ul#mysidebar {
-        width: 225px;
-    }
+@media (min-width: 992px) {
+    div#tg-sb-sidebar.col-md-3 {
+        width: 20%;
 }
 
 @media (max-width: 900px) {
-
-    ul#mysidebar {
-        max-width: 100%;
+    ul#mysidebar {	
+        max-width: 100%;	
     }
 }
 
+@media (max-width: 992px) {
+    #mysidebar {
+        position: relative;
+    }
+	#tg-sb-content {
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #tg-sb-content {
+        padding-right: 15%;
+    }
+	#mysidebar {
+        position: relative;
+		width: 75%;
+    }
+}
+	
 .col-md-9 img {
     max-width: 100%;
     max-height: 100%;
@@ -1163,7 +1187,7 @@ h4.panel-title {
 
 /*set navbar breakpoint so that it converts to hamburger earlier */
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px){
     .navbar-header {
         float: none;
     }
@@ -1196,5 +1220,12 @@ h4.panel-title {
     }
     .collapse.in{
         display:block !important;
+    }
+    .container-fluid {	
+    margin-right: auto;
+    margin-left: auto;
+    }
+    #tg-sb-content {
+    padding-right: 15px;
     }
 }

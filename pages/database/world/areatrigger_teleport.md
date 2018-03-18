@@ -7,7 +7,7 @@ keywords: areatrigger, teleport, databse, world
 last_updated: March 16, 2018
 summary:
 toc: false
-folder: world
+folder: database/world
 ---
 
 ## table

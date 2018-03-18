@@ -1,13 +1,13 @@
 ---
-title: creature
-permalink: creature.html
+title: access_requirement
+permalink: access_requirement.html
 sidebar: mydoc_sidebar
 tags: [database, world]
-keywords: creature, databse, world
+keywords: areatrigger, tavern, database, world
 last_updated: March 16, 2018
 summary:
 toc: false
-folder: world
+folder: database/world
 ---
 
 ## table

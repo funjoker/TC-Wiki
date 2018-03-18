@@ -8,6 +8,22 @@
 h3 {color: #ED1951; }
 h4 {color: #808080; }
 
+ #mysidebar::-webkit-scrollbar {
+    width: 3px;
+}
+
+ #mysidebar::-webkit-scrollbar-track {
+    background: transparent; 
+}
+ 
+ #mysidebar::-webkit-scrollbar-thumb {
+    background: #347dbe; 
+}
+
+ #mysidebar::-webkit-scrollbar-thumb:hover {
+    background: #248ec2; 
+}
+
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #248ec2;
     color: white;

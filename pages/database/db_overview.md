@@ -3,11 +3,11 @@ title: Overview
 permalink: db_overview.html
 sidebar: mydoc_sidebar
 tags: [database]
-keywords: databse
+keywords: database
 last_updated: March 16, 2018
-summary:
+summary: This pages gives a brief information about the database.
 toc: false
-folder: world
+folder: database
 ---
 
 ## table
