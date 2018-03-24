@@ -32,11 +32,11 @@ Field                                           | Type         | Attributes | Ke
 [comment](#comment)                             | text         | signed     |     | NO   | NULL    |       |
 
 
-##mapId
+## mapId
 This is the access_id field from the instance_template table. It is an arbitrary number that merely links the requirements to an instance_template, or areatrigger_teleport
 
 
-##difficulty
+## difficulty
 5 man dungeons - 0 for normal, 1 for heroic, 2 for epic (not used yet)
 
 10 man dungeons - 0 for normal, 2 for heroic
@@ -44,15 +44,15 @@ This is the access_id field from the instance_template table. It is an arbitrary
 25 man dungeons - 1 for normal, 3 for heroic
 
 
-##level_min
+## level_min
 The minimum level that you must be in order to enter the instance.
 
 
-##level_max
+## level_max
 The maximum level that you can be in order to enter the instance.
 
 
-##item_level
+## item_level
 The at least required item level for a instance.
 
 All WotLK Heroics require at least an average item level of 180.
@@ -60,31 +60,31 @@ Trial of the Champion, Pit of Saron, and the Forge of Souls require an average i
 Halls of Reflection requires an average item level of 219.
 
 
-##item
+## item
 An item that you must have in your inventory to enter the instance. This item can not be in the bank.
 
 
-##item2
+## item2
 A second item that you must have in your inventory. This item can not be in the bank.
 
 
-##quest_done_A
+## quest_done_A
 A quest that you must have completed. This field is only for alliance.
 
 
-##quest_done_H
+## quest_done_H
 A quest that you must have completed. This field is only for horde.
 
 
-##completed_achievement
+## completed_achievement
 An achievement that must be completed by the player to enter an instance.
 
 
-##quest_failed_text
+## quest_failed_text
 The text that is shown if you try and enter the instance without having completed the quest.
 
 
-##comment
+## comment
 This field is for any comment you want to make about the requirements. It is arbitrary text.
 
 
