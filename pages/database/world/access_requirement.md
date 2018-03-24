@@ -33,7 +33,7 @@ Field                                           | Type         | Attributes | Ke
 
 
 ## mapId
-This is the access_id field from the instance_template table. It is an arbitrary number that merely links the requirements to an instance_template, or areatrigger_teleport
+This is the [access_id](instance_template.html#acess_id) field from the [instance_template](instance_template.html) table. It is an arbitrary number that merely links the requirements to an instance_template, or areatrigger_teleport
 
 
 ## difficulty
