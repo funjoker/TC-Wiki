@@ -42,7 +42,7 @@ entries:
         subfolderitems:
 
         - title: access_requirement
-          url: /database/world/access_requirement.html
+          url: /world-access_requirement.html
           output: web, pdf
         - title: achievement_criteria_data
           url: /achievement_criteria_data.html
