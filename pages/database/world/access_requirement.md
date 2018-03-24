@@ -1,6 +1,6 @@
 ---
 title: access_requirement
-permalink: world-access_requirement.html
+permalink: access_requirement.html
 sidebar: mydoc_sidebar
 tags:
   - database
