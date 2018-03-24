@@ -25,8 +25,8 @@ Field                                           | Type         | Attributes | Ke
 [item_level](#item_level)                       | smallint(5)  | unsigned   |     | NO   | 0       |       |
 [item](#item)                                   | mediumint(8) | unsigned   |     | NO   | 0       |       |
 [item2](#item2)                                 | mediumint(8) | unsigned   |     | NO   | 0       |       |
-[quest_done_A](#quest_done_A)                   | mediumint(8) | unsigned   |     | NO   | 0       |       |
-[quest_done_H](#quest_done_H)                   | mediumint(8) | unsigned   |     | NO   | 0       |       |
+[quest_done_A](#quest_done_a)                   | mediumint(8) | unsigned   |     | NO   | 0       |       |
+[quest_done_H](#quest_done_h)                   | mediumint(8) | unsigned   |     | NO   | 0       |       |
 [completed_achievement](#completed_achievement) | mediumint(8) | unsigned   |     | NO   | 0       |       |
 [quest_failed_text](#quest_failed_text)         | text         | signed     |     | NO   | NULL    |       |
 [comment](#comment)                             | text         | signed     |     | NO   | NULL    |       |
