@@ -155,6 +155,7 @@ table > thead > tr > th {
     background-color: #777;
     color: white;
     text-align: left;
+	border: 1px solid #dedede;
 }
 table > caption + thead > tr:first-child > th,
 table > colgroup + thead > tr:first-child > th,
@@ -183,8 +184,8 @@ table th[class*="col-"] {
 
 table tr td {
     hyphens: auto;
+	border: 1px solid #dedede;
 }
-
 
 p.external a {
     text-align:right;
@@ -869,6 +870,7 @@ span.soft {
 @media (min-width: 992px) {
     div#tg-sb-sidebar.col-md-3 {
         width: 20%;
+	}
 }
 
 @media (max-width: 900px) {
@@ -890,9 +892,8 @@ span.soft {
     #tg-sb-content {
         padding-right: 15%;
     }
-	#mysidebar {
-        position: relative;
-		width: 75%;
+	ul#mysidebar {
+		max-width: 75%;
 		min-width: 240px;
     }
 }
