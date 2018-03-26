@@ -62,3 +62,26 @@ Type | Name
 ## value1
 
 <pre><b>*TYPE_T_CREATURE</b></pre>
+        The target here must be a valid entry from creature_template
+<pre><b>*TYPE_T_PLAYER_CLASS_RACE</b></pre>
+<pre><b>*TYPE_T_PLAYER_LESS_HEALTH</b></pre>
+<pre><b>*TYPE_T_PLAYER_DEAD</b></pre>
+<pre><b>*TYPE_S_AURA</b></pre>
+<pre><b>*TYPE_S_AREA</b></pre>
+<pre><b>*TYPE_T_AURA</b></pre>
+<pre><b>*TYPE_VALUE</b></pre>
+<pre><b>*TYPE_T_LEVEL</b></pre>
+<pre><b>*TYPE_T_GENDER</b></pre>
+<pre><b>*TYPE_SCRIPT</b></pre>
+<pre><b>*TYPE_MAP_DIFFICULTY</b></pre>
+<pre><b>*TYPE_MAP_PLAYER_COUNT</b></pre>
+<pre><b>*TYPE_T_TEAM</b></pre>
+<pre><b>*TYPE_S_DRUNK</b></pre>
+<pre><b>*TYPE_HOLIDAY</b></pre>
+<pre><b>*TYPE_BG_LOSS_TEAM_SCORE</b></pre>
+<pre><b>*TYPE_INSTANCE_SCRIPT</b></pre>
+<pre><b>*TYPE_S_EQUIPED_ITEM</b></pre>
+<pre><b>*TYPE_MAP_ID</b></pre>
+<pre><b>*TYPE_S_PLAYER_CLASS_RACE</b></pre>
+<pre><b>*TYPE_NTH_BIRTHDAY</b></pre>
+<pre><b>*TYPE_S_KNOWN_TITLE</b></pre>
