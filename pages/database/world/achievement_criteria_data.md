@@ -61,7 +61,4 @@ Type | Name
 
 ## value1
 
-#### *TYPE_T_CREATURE
-```
-*TYPE_T_CREATURE
-```
+<pre><b>*TYPE_T_CREATURE</b></pre>
