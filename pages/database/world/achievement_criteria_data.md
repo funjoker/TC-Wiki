@@ -62,7 +62,9 @@ Type | Name
 ## value1
 
 <pre><b>*TYPE_T_CREATURE</b></pre>
-        The target here must be a valid entry from creature_template
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The target here must be a valid entry from creature_template
+
 <pre><b>*TYPE_T_PLAYER_CLASS_RACE</b></pre>
 <pre><b>*TYPE_T_PLAYER_LESS_HEALTH</b></pre>
 <pre><b>*TYPE_T_PLAYER_DEAD</b></pre>
